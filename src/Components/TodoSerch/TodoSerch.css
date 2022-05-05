@@ -1,0 +1,24 @@
+.TodoSerch {
+    background: #faedcd;
+    border-radius: 2px;
+    border: 2px solid #ffd60a;
+    margin: 0 24px;
+    height: 65px;
+    width: calc(100% - 62px);
+    font-size: 24px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    color: black;
+    box-shadow: 0 5px 50px #fefae0;
+}
+
+.TodoSerch::placeholder{
+    color: #001219;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+}
+
+.TodoSerch:focus{
+    outline-color: #343a40;
+}
